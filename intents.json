@@ -1,0 +1,239 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Hey tutor",
+        "Hello assistant",
+        "Hi bot",
+        "Hey there",
+        "Is anyone there?",
+        "Good afternoon",
+        "Yo",
+        "What's up",
+        "Hi edubot",
+        "Hello edubot"
+      ],
+      "responses": [
+        "Hello! I'm EDUbot. How can I help you learn today?",
+        "Hi there! Ready to boost your knowledge?",
+        "Hey! What topic are you exploring today?"
+      ]
+    },
+
+    {
+      "tag": "identity",
+      "patterns": [
+        "Who are you",
+        "What is your name",
+        "Are you a teacher",
+        "Tell me your name",
+        "What should I call you",
+        "Are you human",
+        "Are you a bot",
+        "Identify yourself",
+        "What can you do",
+        "What is your purpose"
+      ],
+      "responses": [
+        "I'm EDUbot, your personal AI learning assistant!",
+        "You can call me EDUbot — I'm here to support your studies.",
+        "I'm EDUbot, designed to assist with academic learning and study support."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later",
+        "Take care",
+        "Bye tutor",
+        "Thank you bye",
+        "Good night"
+      ],
+      "responses": [
+        "Goodbye! Keep learning and stay curious!",
+        "See you soon! Let me know whenever you need help.",
+        "Bye! Have a productive day!"
+      ]
+    },
+
+    {
+      "tag": "study_material_request",
+      "patterns": [
+        "Give me study materials",
+        "Provide learning resources",
+        "I need notes",
+        "Do you have PDFs",
+        "Share some books",
+        "I need help with study materials",
+        "Provide resources",
+        "Where can I study this topic",
+        "Study material please",
+        "I need maths notes",
+        "Give me physics notes",
+        "chemistry chapter notes",
+        "biology study material",
+        "computer science notes"
+      ],
+      "responses": [
+        "Sure! Tell me the subject and chapter, and I’ll fetch your study materials.",
+        "Absolutely! Which subject or topic do you want resources for?",
+        "Yes! Please specify the subject (Maths, Physics, Chemistry, Biology, CS, English, History, Geography)."
+      ]
+    },
+
+    {
+      "tag": "academic_query",
+      "patterns": [
+        "Explain this concept",
+        "I have a doubt",
+        "Solve this question",
+        "Can you help me understand this",
+        "I have a query",
+        "Explain in simple terms",
+        "Clear my doubt",
+        "help me understand this topic",
+        "can you explain this lesson"
+      ],
+      "responses": [
+        "Sure! Please type your question or concept.",
+        "I'd be happy to help! What topic are you confused about?",
+        "Ask me your academic doubt — I'm ready to explain!"
+      ]
+    },
+
+    {
+      "tag": "schedule_class",
+      "patterns": [
+        "Schedule a class",
+        "Book a class",
+        "Fix a session",
+        "I want to attend a class",
+        "Arrange a class for me",
+        "Can you schedule a lecture",
+        "Class timing please",
+        "book maths class",
+        "book physics class",
+        "book a cs class"
+      ],
+      "responses": [
+        "Sure! What subject would you like to schedule a class for?",
+        "Absolutely! Tell me the subject and your preferred time.",
+        "Yes, I can arrange a session. Which subject and what time?"
+      ]
+    },
+
+    {
+      "tag": "assignment_feedback",
+      "patterns": [
+        "Give feedback on my assignment",
+        "Check my assignment",
+        "Review my homework",
+        "Give your opinion on my work",
+        "Can you evaluate this",
+        "Is my assignment good",
+        "check this answer",
+        "review my essay",
+        "evaluate my writing"
+      ],
+      "responses": [
+        "Sure! Please paste your assignment text below.",
+        "I'd be happy to review it! Share your assignment.",
+        "Send your homework or answer, and I’ll give detailed feedback."
+      ]
+    },
+
+    {
+      "tag": "exam_preparation",
+      "patterns": [
+        "How should I prepare for exams",
+        "Give me exam tips",
+        "Help me prepare",
+        "I have exams coming",
+        "Study plan for exams",
+        "How to score good marks",
+        "I need a study plan"
+      ],
+      "responses": [
+        "Break topics into small chunks and revise daily. Want a personalized timetable?",
+        "Exam prep works best with revision + practice. Need a study strategy?",
+        "Tell me your exam subject — I'll create a quick plan!"
+      ]
+    },
+
+    {
+      "tag": "course_info",
+      "patterns": [
+        "Tell me about this course",
+        "Course details",
+        "What will I learn",
+        "Explain this subject",
+        "Is this course useful",
+        "Course content please",
+        "syllabus please"
+      ],
+      "responses": [
+        "Sure! Tell me the course name and I’ll share detailed information.",
+        "I'd be happy to explain the course — which one?",
+        "Please provide the subject or course name."
+      ]
+    },
+
+    {
+      "tag": "contact",
+      "patterns": [
+        "Contact details",
+        "How can I contact the teacher",
+        "Support team number",
+        "Help desk number",
+        "Email address",
+        "Where can I get help"
+      ],
+      "responses": [
+        "You can reach the academic help desk at: support@edubot.com",
+        "For assistance, email support@edubot.com or visit the help portal."
+      ]
+    },
+
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Motivate me",
+        "I am tired of studying",
+        "I feel stressed",
+        "Give me motivation",
+        "I can't study anymore",
+        "I feel down",
+        "I am not able to focus"
+      ],
+      "responses": [
+        "You're doing great! Small progress is still progress.",
+        "Don’t give up! You're capable of amazing things.",
+        "Take a deep breath. You are stronger than you think!"
+      ]
+    },
+    {
+      "tag": "subjects",
+      "patterns": [
+        "maths",
+        "math",
+        "physics",
+        "chemistry",
+        "biology",
+        "computer",
+        "history",
+        "geography"
+      ],
+      "responses": ["Fetching resources…"]
+    }
+  ]
+}
