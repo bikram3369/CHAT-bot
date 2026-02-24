@@ -249,7 +249,7 @@ from tensorflow.keras.models import load_model
 # ---------------- GEMINI SETUP ----------------
 import google.generativeai as genai
 
-API_KEY = "AIzaSyCyDRJrqSN4HJXT8ainGVSKEEZQLLEJW3w"
+API_KEY = "your api key here"
 genai.configure(api_key=API_KEY)
 
 gemini = genai.GenerativeModel("models/gemini-2.5-flash")
